@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja Pandit | Data Scientist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 10%;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero-text span{
+color:#38bdf8;
+}
+
+.hero-text p{
+margin:20px 0;
+color:#cbd5f5;
+}
+
+.hero img{
+width:300px;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+transition:.4s;
+}
+
+.hero img:hover{
+transform:scale(1.05);
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+padding:12px 24px;
+border-radius:30px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+margin-right:10px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(56,189,248,0.5);
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+font-size:36px;
+margin-bottom:40px;
+text-align:center;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+transition:.3s;
+}
+
+.skill:hover{
+transform:translateY(-10px);
+background:#38bdf8;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.4s;
+position:relative;
+overflow:hidden;
+}
+
+.card:hover{
+transform:translateY(-12px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+color:#cbd5f5;
+margin-bottom:20px;
+}
+
+/* DEMO BUTTON */
+
+.demo-btn{
+background:#22c55e;
+padding:10px 20px;
+border-radius:25px;
+text-decoration:none;
+color:white;
+margin-right:10px;
+font-weight:500;
+transition:.3s;
+}
+
+.demo-btn:hover{
+background:#16a34a;
+box-shadow:0 0 20px #22c55e;
+}
+
+/* GITHUB BUTTON */
+
+.code-btn{
+background:#6366f1;
+padding:10px 20px;
+border-radius:25px;
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+.code-btn:hover{
+background:#4f46e5;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:#020617;
+color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<h2>Pooja Pandit</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero" id="about">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Pooja Pandit</span></h1>
+
+<p>
+Entry-level Data Scientist with hands-on experience building Machine Learning
+applications using Python, Flask, Pandas and SQL. Passionate about turning
+data into insights and building AI-powered solutions.
+</p>
+
+<a class="btn" href="https://github.com/poojapandit1106" target="_blank">GitHub</a>
+
+<a class="btn" href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+
+</div>
+
+<img src="image.jpeg">
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Pandas</div>
+<div class="skill">NumPy</div>
+<div class="skill">Flask</div>
+<div class="skill">MySQL</div>
+<div class="skill">EDA</div>
+<div class="skill">Matplotlib</div>
+<div class="skill">Prompt Engineering</div>
+<div class="skill">Google Gemini API</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Featured Projects</h2>
+
+<div class="projects">
+
+<!-- PROJECT 1 -->
+
+<div class="card">
+
+<h3>Wine Quality Predictor</h3>
+
+<p>
+Machine learning regression model that predicts wine quality based on
+chemical properties such as acidity, pH, alcohol and sulphates.
+Built using Python, Pandas, Linear Regression and Flask.
+</p>
+
+<a class="demo-btn"
+href="https://poojagpandit.pythonanywhere.com/"
+target="_blank">Live Demo</a>
+
+<a class="code-btn"
+href="https://github.com/poojapandit1106/WineQualityPredictor"
+target="_blank">Source Code</a>
+
+</div>
+
+
+<!-- PROJECT 2 -->
+
+<div class="card">
+
+<h3>Customer Churn Predictor</h3>
+
+<p>
+Classification model using Decision Tree to predict whether a customer
+will leave a service based on usage behaviour and account details.
+</p>
+
+<a class="demo-btn"
+href="https://poojagpandit2.pythonanywhere.com/"
+target="_blank">Live Demo</a>
+
+<a class="code-btn"
+href="https://github.com/poojapandit1106/CustomerChurnPredictor"
+target="_blank">Source Code</a>
+
+</div>
+
+
+<!-- PROJECT 3 -->
+
+<div class="card">
+
+<h3>GenAI Code Generator Assistant</h3>
+
+<p>
+AI powered code generation web application using Google Gemini API
+that can generate code in Python, Java and C++ dynamically.
+</p>
+
+<a class="demo-btn"
+href="https://chitrlekhadebe3.pythonanywhere.com/"
+target="_blank">Live Demo</a>
+
+<a class="code-btn"
+href="https://github.com/poojapandit1106/CodeGeneratorAssistant"
+target="_blank">Source Code</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:poojapandit1106@gmail.com">poojapandit1106@gmail.com</a></p>
+
+<p>Phone: +91 9359404709</p>
+
+<p>Location: Vapi, Gujarat, India</p>
+
+</section>
+
+
+<footer>
+
+© 2026 Pooja Pandit | Data Science Portfolio
+
+</footer>
+
+</body>
+</html>
